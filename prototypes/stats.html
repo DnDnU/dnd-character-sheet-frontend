@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styles/stats.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>STATS FORM</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header id="page-nav">
+            <div class="inner">
+                <nav role='navigation'>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./user.html">UserForm</a></li>
+                    <li><a href="./character.html">CharacterForm</a></li>
+                    <li><a href="./stats.html">StatsForm</a></li>
+                    <li><a href="./final-character-output.html">Character Sheet</a></li>
+                </ul>
+                </nav>  
+    
+            </div>
+        </header>
+        <h1 class="title">Your Character's stat sheet</h1>
+        <form class="stats__sheet" id="form" action="" method="POST">
+            <label id="title">
+                <br>
+                <b>Run Them Stats B!</b>
+            </label>
+                <br>
+                <br>
+            <div>
+                <label class="stats-drop">Enter your Strength: </label>
+                <input type="number" id="strength" name="str" min="1" max="20" >
+            </div>
+                <br>
+            <div>
+                <label class="stats-drop">Enter your Dexterity: </label>
+                <input type="number" id="dexterity" name="dex" min="1" max="20">
+            </div>
+                <br>
+            <div>
+                <label class="stats-drop">Enter your Constitution: </label>
+                <input type="number" id="constitution" name="con" min="1" max="20">
+            </div>
+                <br>
+            <div>
+                <label class="stats-drop">Enter your Intelligence: </label>
+                <input type="number" id="intelligence" name="int" min="1" max="20">
+            </div>
+                <br>
+            <div>   
+                <label class="stats-drop">Enter your Wisdom (Khalifa): </label>
+                <input type="number" id="wisdom" name="wis" min="1" max="20">
+            </div>
+                <br>
+            <div>
+                <label class="stats-drop">Enter your Charisma: </label>
+                <input type="number" id="charisma" name="cha" min="1" max="20">
+            </div>
+                <br>
+            <button type="submit" id="stats-button"><b>Run 'Em!</b></button>
+        </form>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,112 @@
+/* DELETE DELETE */
+
+/* * {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%
+}
+
+
+footer{
+display: flex;
+flex-direction: row;
+justify-content: center;
+
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color:black;
+  color: whitesmoke;
+}
+
+form div {
+    padding: 10px 5px;
+    margin: 10px 5px;
+}
+header {
+  width: 100%;
+  background: #000;
+  transition: 0.7s all;
+  z-index: 100;
+
+}
+
+header.alt-header {
+  background: #fff;
+}
+
+.alt-header a {
+  color: #000;
+}
+
+body.header-fixed header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding-top: 0;
+  width: 100%;
+  z-index: 2;
+}
+li {
+  list-style: none;
+}
+
+nav {
+  overflow: hidden;
+  display:flex;
+  
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+
+}
+
+.logo>img {
+  
+  padding-left: 50px;
+  margin-left: 50px;
+  height:90px ;
+  width: 100px;
+  justify-content: center;
+
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  align-content: center;
+}
+
+nav li {
+  display: inline;
+  
+}
+
+nav a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding: 25px;
+  transition: 0.3s all;
+}
+
+
+.navbar {
+display: flex;
+flex-direction: row;
+align-content: space-between;
+}
+
+.navitems {
+  list-style-type: none;
+}
+
+nav a:hover {
+  background: red;
+}
+ */

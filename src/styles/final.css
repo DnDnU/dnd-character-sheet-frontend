@@ -1,0 +1,56 @@
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Uncial Antiqua", cursive;
+  }
+  
+  @font-face {
+    font-family: "Uncial Antiqua", cursive;
+    src: url("./fonts/UncialAntiqua-Regular.ttf");
+  } */
+  
+  .final-div{
+    border-radius: 10px;
+    background-image: url("./img/parchment-paper.jpg");
+    background-color: #ffffff;
+    display: grid;
+    grid-template-areas: "img img img info"
+                         "img img img info"
+                         "img img img info"
+                         "button button";
+    
+    padding: 15px;
+    margin: 15px;
+    max-width: 500px;
+    max-height: 5000px;
+    box-shadow: 15px 15px 15px -15px rgba(0, 0, 0, 0.6);
+    opacity: 0.95;
+    transition: transform 0.5s, opacity 0.5s, max-height 0.5s, margin-bottom 0.3s;
+  }
+
+  /* Stats */
+.final-stats {
+  border: 5px solid rgba(30, 75, 119, 0.452);
+  /* padding: .25rem; */
+  margin: .5rem;
+}
+
+.final-stats td, th {
+  padding: .2rem .5rem;
+  margin: .25rem;
+  border: 1px solid rgba(49, 49, 49, 0.719);
+  
+}
+
+.final-stats tr th:first-child, td:first-child {
+  color: rgb(18, 58, 58);
+}
+
+
+.stats-wrapper {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+  

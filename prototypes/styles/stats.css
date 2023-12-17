@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%
+}
+
+@font-face {
+    font-family: 'Dungeon';
+    src:
+      local('Dungeon'),
+      url('../styles/DUNGRG__.ttf')
+}
+
+#stats-button {
+  background-color: pink;
+  border: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  padding: 16px;
+  width: 160px;
+}
+
+.stats-drop {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-auto-rows: auto;
+   grid-gap: 1rem;
+}
+
+form { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: lightblue;
+}
+
+form div {
+    padding: 10px 5px;
+    margin: 10px 5px;
+}
+
+header {
+    background: #000;
+    transition: 0.7s all;
+    z-index: 100;
+    width: 100%;
+}
+  
+nav {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    overflow: hidden;
+}
+  
+    nav a {
+        display: inline-block;
+        color: #fff;
+        text-decoration: none;
+        padding: 25px;
+        transition: 0.3s all;
+    }
+
+    nav a:hover {
+        background: pink;
+        color: black;
+    }
+
+    nav li {
+        display: inline;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-self: center;
+        align-content: center;
+    }
+
+.page-bar {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+}
+
+.title{
+  color: white;
+}

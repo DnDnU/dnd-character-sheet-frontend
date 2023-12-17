@@ -1,0 +1,95 @@
+/* body {
+  background-image: url("./img/dnd_forest3.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-y: scroll;
+}
+
+img {
+  width: auto;
+  height: auto;
+}
+
+#top-padding {
+  padding: 10px;
+}
+
+.multiple_class_cards {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  overflow: wrap;
+}
+
+.class_card {
+  border-radius: 10px;
+  background-image: url("./img/parchment-paper.jpg");
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 15px;
+  margin: 15px;
+  max-width: 280px;
+  max-height: 415px;
+  box-shadow: 15px 15px 15px -15px rgba(0, 0, 0, 0.6);
+  opacity: 0.95;
+  transition: transform 0.5s, opacity 0.5s, max-height 0.5s, margin-bottom 0.3s;
+}
+
+.dndClass_name {
+  display: grid;
+  color: orange;
+}
+
+.card-header {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+      font-size: 24px;
+      font-weight: 600;
+}    
+
+.card-subtitle {
+      font-size: 14px;
+}
+
+.card-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .card-content > img {
+    max-width: 200px;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 15px 15px 15px -15px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    transition: margin-bottom 0.3s;
+  }
+
+  .card-footer {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    font-size: 13px;
+  }
+
+
+.mcr-card:hover {
+  transform: scale(1.1, 1.1) translateY(50px);
+  opacity: 1;
+  max-height: 520px;
+  transition: transform 0.5s, opacity 0.5s, max-height 0.5s, margin-bottom 0.3s;
+}
+
+.card-footer {
+    color: #000 !important;
+} */

@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%
+}
+
+@font-face {
+  font-family: 'Dungeon';
+  src:
+    local('Dungeon'),
+    url('./DUNGRG__.tff')
+}
+button{
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+}
+
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color:black;
+    color: whitesmoke;
+}
+
+  form div {
+      padding: 10px 5px;
+      margin: 10px 5px;
+  }
+header {
+    /* position: fixed; */
+    width: 100%;
+    /* padding-top: 50px; */
+    background: #000;
+    transition: 0.7s all;
+    z-index: 100;
+  
+  }
+  
+  header.alt-header {
+    background: #fff;
+  }
+  
+  .alt-header a {
+    color: #000;
+  }
+  
+  body.header-fixed header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding-top: 0;
+    width: 100%;
+    z-index: 2;
+  }
+  li {
+    list-style: none;
+  }
+  
+  nav {
+    overflow: hidden;
+    display:flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+  }
+
+  .logo>img {
+    
+    padding-left: 50px;
+    margin-left: 50px;
+    height:90px ;
+    width: 100px;
+    justify-content: center;
+ 
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    align-content: center;
+  }
+  
+  nav li {
+    display: inline;
+    
+  }
+  
+  nav a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 25px;
+    transition: 0.3s all;
+  }
+
+.footer {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 150px;
+  color: lightgray;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+}
+
+.navitems {
+    list-style-type: none;
+}
+
+  nav a:hover {
+    background: red;
+  }
+
+.submit{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-self: space-between;
+}
+.title{
+  color:red;
+  text-align: center;
+}
+
+.wrapper {
+  background-image: url("./paper.jpg");
+  min-height: 100vh;
+  margin: 0 auto;
+  width: 85%;
+}
+
+#submit-text {
+  text-align: center;
+}
+/* ======= */
+.submit-button {
+  max-width: 50px;
+  min-width: 20px;
+  align-self: center;
+}
+.user-form{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding:10px;
+  width: 50%;
+  margin: 0 auto;
+  box-shadow: 4px 5px rgba(5, 5, 5, .45) ;
+}
+.user-form >label{
+  padding:10px;
+  margin:10px;
+  align-content: center;
+}
+
+.title {
+  padding: 35px 5px;
+  
+}

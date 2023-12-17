@@ -1,0 +1,60 @@
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 85%;
+
+}
+
+.button-wrapper button {
+  padding: .25rem;
+  margin: 1rem 2rem;
+
+}
+
+.die-value {
+  color: whitesmoke;
+  font-size: 2rem;
+  padding: 0.25rem 0.75rem;
+  margin: 0.25rem;
+}
+
+.diceroll {
+  margin: 0 auto;
+  padding: 0.5rem;
+}
+
+.selected {
+  color: gray;
+  text-decoration: line-through;
+}
+
+.statform-wrapper {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.stat-table {
+  color: white;
+  background-color: green;
+  border-collapse: collapse;
+  border: 1px solid paleturquoise;
+  margin: 0 auto;
+}
+
+.stat-table th {
+  padding: .3rem .75rem;
+}
+
+.stat-table thead {
+  background-color: rgb(21, 76, 78);
+}
+
+.stat-table tr:nth-child(even) {
+  background-color: lightseagreen;
+}
+
+.stat-table td {
+  padding: .25rem .75rem;
+  margin: .5rem;
+}
